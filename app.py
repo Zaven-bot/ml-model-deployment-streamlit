@@ -1,7 +1,9 @@
-## ML Model Deployment at Streamlit Server
-# Full Streamlit Code Repository: https://github.com/laxmimerit/streamlit-tutorials
-
-# streamlit run 2-app.py
+# Title: Sentiment Analysis with TinyBERT
+# Author: Ian Unebasami
+# Purpose: This Streamlit application allows users to deploy and utilize a TinyBERT model for sentiment analysis. 
+#          Users can download the model from an S3 bucket, input text for analysis, and receive predictions with 
+#          confidence scores.
+# Run: streamlit run app.py
 
 import streamlit as st
 import os
